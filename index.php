@@ -6,6 +6,7 @@
         </style>
     </head>
     <body>
+        
         <nav>
             <ul>
                 <li><a href="index.php">Buscar otro pokemon</a></li>
@@ -20,6 +21,11 @@
         </form>
         <div class="pokemon">
         <?php
+        /**
+         * @author Carlos Garcia Hens
+         * @global string $_GET["id"] Esta es la variable global para la obtencion del id del pokemon
+         * Pagina principal para la Api de pokemon
+         */
         $url = "";
         if(isset($_GET["id"])){
             $id = $_GET["id"];

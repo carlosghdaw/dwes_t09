@@ -1,14 +1,17 @@
 .seccion{
+    text-align: center;
     width: auto;
     background-color: #bc0909;
     color: yellow;
     padding: 20px;
-    font-size: 20px;
+    font-size: 50px;
     margin:0px;
 }
 
 form{
     margin-top:20px;
+    margin-left: 40px;
+    font-size:30px;
 }
 
 .resultados{
@@ -22,7 +25,7 @@ form{
 }
 
 body{
-    background-color: #75dddd; 
+    background-color: #ffffff; 
 }
 
 img {
@@ -52,7 +55,7 @@ nav  li a {
     color: white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
+    
 }
 
 li a:hover {
